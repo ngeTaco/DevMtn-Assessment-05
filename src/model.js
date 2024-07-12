@@ -71,6 +71,7 @@ Animal.init(
   },
 );
 
-// TODO: Define Relationship
+Human.hasMany(Animal, { foreignKey: 'humanId' });
+Animal.belongsTo(Human, { foreignKey: 'humanId' });
 
 export default db;
