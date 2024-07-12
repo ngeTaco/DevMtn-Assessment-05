@@ -3,7 +3,7 @@ const { Client } = pg;
 import * as studentAnswers from '../src/quiz.js';
 
 const client = new Client({
-  user: "Devmountain",
+  user: "aldog",
   password: null,
   host: "localhost",
   port: 5432,
