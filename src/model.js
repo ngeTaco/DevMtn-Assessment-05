@@ -10,7 +10,7 @@ export class Human extends Model {
   }
 
   getFullName() {
-    // TODO: Implement this method
+    return `${this.fname} + " " + ${this.lname}`;
   }
 }
 
