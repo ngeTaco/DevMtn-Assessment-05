@@ -24,7 +24,6 @@ export const query7 = await Animal.findAll({ where: { [Op.or]: [{species: "fish"
 
 // Get all the humans who DON'T have an email address that contains "gmail"
 export const query8 = await Human.findAll({ where: { email: { [Op.notLike]: '%gmail%' } } });
-//Human.findAll({ where: { [Op.not]: { email: { [Op.contains]: ["gmail"] } } } });
 
 // Continue reading the instructions before you move on!
 
